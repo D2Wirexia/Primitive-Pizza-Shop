@@ -1,0 +1,146 @@
+.basket {
+	max-width: 100%;
+}
+.btn {
+	position: relative;
+	width: 250px;
+	font-size: 22px;
+	padding: 10px 20px;
+	background: #ff7f82;
+	color: #000000;
+	left: 50%;
+	transform: translate(-50%);
+	top: 30px;
+	box-shadow: 1px 1px 3px #000;
+	text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.37);
+	transition: all .2s linear;
+}
+
+.basket a {
+	text-decoration: none;
+}
+
+.btn i {
+	font-size: 34px;
+	position: absolute;
+}
+
+.btn span {
+	padding-left: 40px;
+}
+
+.btn:hover {
+	background: #67b7ff;
+	color: #000000;
+}
+
+.cardBasket {
+	position: relative;
+	top: 50px;
+	width: 1150px;
+	display: flex;
+	flex-wrap: wrap;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.itemCard {
+	position: relative;
+	display: flex;
+	background: #c2c2c2;
+	border-radius: 50px;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.photoPizza {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+.photoPizza img {
+	width: 100%;
+	height: 100%;
+}
+
+.description {
+	position: relative;
+	width: 250px;
+}
+
+.namePizza {
+	position: relative;
+	margin-top: 25px;
+	font-size: 36px;
+	font-family: "Times New Roman";
+	font-weight: 800;
+}
+
+.storage {
+	font-style: italic;
+}
+
+.bough, .supplements {
+	position: relative;
+	width: 200px;
+	text-align: center;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	width: 100%;
+}
+
+.value {
+	font-size: 24px;
+	padding: 5px;
+	position: relative;
+	font-style: italic;
+}
+.price{
+	font-weight: 700;
+	font-size: 32px;
+	width: 200px;
+}
+.deleteCard{
+	position: relative;
+	right: 0;
+	float: right;
+	width: 100px;
+}
+.deleteCard i{
+	font-size: 53px;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+.deleteCard i:hover{
+	font-size: 60px;
+}
+
+.totalValue{
+	top: 50px;
+	padding-bottom: 50px;
+	left: 50%;
+	transform: translate(-50%);
+	position: relative;
+	font-size: 28px;
+	letter-spacing: .2rem;
+}
+
+.voidBasket {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 34px;
+	font-family: "Times New Roman";
+	color: rgb(102, 102, 102);
+	text-shadow: 1px 1px 1px #000;
+	font-style: italic;
+	letter-spacing: .3rem;
+}

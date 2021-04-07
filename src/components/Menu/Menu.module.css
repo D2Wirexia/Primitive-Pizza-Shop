@@ -1,0 +1,122 @@
+.containerItems {
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	box-sizing: border-box;
+}
+.pushPizza{
+	position: absolute;
+	font-size: 34px;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	color: #000;
+	transition: all .2s linear;
+}
+.pushPizza:hover{
+	color: #1bb72b;
+}
+.card {
+	margin: 10px  10px 0  10px;
+	border: 2px solid #000;
+	box-shadow: 2px 2px 5px #8f8f8f, -2px -2px 5px #8f8f8f;
+	position: relative;
+}
+
+.photoPizza {
+	width: 300px;
+	height: 300px;
+}
+
+.photoPizza img {
+	height: 100%;
+	width: 100%;
+}
+
+.namePizza {
+	text-align: center;
+	font-size: 22px;
+	font-family: Elephant;
+	color: #2e526f;
+
+}
+.price{
+	font-weight: 800;
+	font-size: 20px;
+	font-family: "Times New Roman";
+	padding: 7px;
+}
+.parameterSelection {
+	position: relative;
+}
+
+.sizePizza {
+	display: flex;
+	width: 250px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border: 1px solid #2e526f;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.sizeDough {
+	width: 70px;
+	position: relative;
+	font-size: 16px;
+	border-right: 1px solid #2e526f;
+	font-family: Helvetica;
+	padding: 8px;
+	cursor: pointer;
+}
+.sizeDough:last-child, .supplements:last-child{
+	border-right: none;
+}
+.bonusPizza{
+	display: flex;
+	width: 250px;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	left: 50%;
+	transform: translate(-50%);
+	border: 1px solid #2e526f;
+	border-top: none;
+}
+.supplements{
+	font-family: Helvetica;
+	width: 125px;
+	position: relative;
+	font-size: 16px;
+	padding: 5px;
+	text-align: center;
+	border-right: 1px solid #2e526f;
+	cursor: pointer;
+}
+
+.storage{
+	width: 300px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	white-space: pre-wrap;
+	margin: 10px 0;
+}
+.storage span{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	font-family: Helvetica;
+	font-size: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
