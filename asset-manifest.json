@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Primitive-Pizza-Shop/static/css/main.23e03d69.chunk.css",
+    "main.js": "/Primitive-Pizza-Shop/static/js/main.3e09596f.chunk.js",
+    "main.js.map": "/Primitive-Pizza-Shop/static/js/main.3e09596f.chunk.js.map",
+    "runtime-main.js": "/Primitive-Pizza-Shop/static/js/runtime-main.d6daca95.js",
+    "runtime-main.js.map": "/Primitive-Pizza-Shop/static/js/runtime-main.d6daca95.js.map",
+    "static/js/2.449d5a70.chunk.js": "/Primitive-Pizza-Shop/static/js/2.449d5a70.chunk.js",
+    "static/js/2.449d5a70.chunk.js.map": "/Primitive-Pizza-Shop/static/js/2.449d5a70.chunk.js.map",
+    "static/js/3.2545dace.chunk.js": "/Primitive-Pizza-Shop/static/js/3.2545dace.chunk.js",
+    "static/js/3.2545dace.chunk.js.map": "/Primitive-Pizza-Shop/static/js/3.2545dace.chunk.js.map",
+    "index.html": "/Primitive-Pizza-Shop/index.html",
+    "static/css/main.23e03d69.chunk.css.map": "/Primitive-Pizza-Shop/static/css/main.23e03d69.chunk.css.map",
+    "static/js/2.449d5a70.chunk.js.LICENSE.txt": "/Primitive-Pizza-Shop/static/js/2.449d5a70.chunk.js.LICENSE.txt",
+    "static/media/bbq.9dd92882.png": "/Primitive-Pizza-Shop/static/media/bbq.9dd92882.png",
+    "static/media/california.1ecc001c.png": "/Primitive-Pizza-Shop/static/media/california.1ecc001c.png",
+    "static/media/chees.5b182032.png": "/Primitive-Pizza-Shop/static/media/chees.5b182032.png",
+    "static/media/all.min.css": "/Primitive-Pizza-Shop/static/media/fa-solid-900.dfaa060a.eot",
+    "static/media/hawaiian.669829c4.png": "/Primitive-Pizza-Shop/static/media/hawaiian.669829c4.png",
+    "static/media/margarita.adfa1a39.jpg": "/Primitive-Pizza-Shop/static/media/margarita.adfa1a39.jpg",
+    "static/media/peperoni.69e6772f.png": "/Primitive-Pizza-Shop/static/media/peperoni.69e6772f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6daca95.js",
+    "static/js/2.449d5a70.chunk.js",
+    "static/css/main.23e03d69.chunk.css",
+    "static/js/main.3e09596f.chunk.js"
+  ]
+}
