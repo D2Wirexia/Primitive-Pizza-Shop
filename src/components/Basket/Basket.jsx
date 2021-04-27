@@ -10,7 +10,7 @@ const Basket = ({basket, deleteCard}) => {
 	}
 	return (
 		 <div className={s.basket}>
-			 <NavLink to={"/"}>
+			 <NavLink to={"/menu"}>
 				 <div className={s.btn}>
 					 <i className="fas fa-long-arrow-alt-left"/>
 					 <span>Back to change menu</span>
