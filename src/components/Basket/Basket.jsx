@@ -1,10 +1,9 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import s from './Basket.module.css'
 import {NavLink} from "react-router-dom";
 import './../../css/all.min.css'
 
 const Basket = ({basket, deleteCard}) => {
-	const [totalValue, setTotalValue] = useState(0);
 	let sum = 0;
 	for (let i = 0; i < basket.length; i++) {
 		sum += basket[i].value

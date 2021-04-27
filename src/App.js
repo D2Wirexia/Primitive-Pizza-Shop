@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
        <HeaderContainer/>
-       <Route exact path="/" render={() => <MenuContainer/>}/>
+       <Route path="/" render={() => <MenuContainer/>}/>
        <Route path="/basket" render={() => <BasketContainer/>}/>
     </div>
   );
