@@ -45,6 +45,20 @@
 	color: #2e526f;
 
 }
+.countPizza{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	padding: 3px 0;
+
+}
+.countPizzaBlock{
+	width: 30px;
+	height: 30px;
+	font-size: 22px;
+	border: 1px solid black;
+
+}
 .price{
 	font-weight: 800;
 	font-size: 20px;

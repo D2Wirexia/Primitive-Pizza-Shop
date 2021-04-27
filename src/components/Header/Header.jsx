@@ -12,7 +12,11 @@ const Header = props => {
 					<NavLink to={"/basket"}>
 					<i className="fas fa-shopping-cart"/>
 					</NavLink>
-					<span>{props.basket.length}</span>
+					<span>
+						{props.basket.length
+						 ? props.basket.reduce((a, b) => a + b.count, 0)
+						 : 0
+						}</span>
 
 				</div>
 		 </header>

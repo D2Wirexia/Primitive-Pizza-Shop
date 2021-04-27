@@ -6,7 +6,7 @@ import './../../css/all.min.css'
 const Basket = ({basket, deleteCard}) => {
 	let sum = 0;
 	for (let i = 0; i < basket.length; i++) {
-		sum += basket[i].value
+		sum += basket[i].value * basket[i].count
 	}
 	return (
 		 <div className={s.basket}>
@@ -27,6 +27,10 @@ const Basket = ({basket, deleteCard}) => {
 							  <div className={s.namePizza}>{item.name}</div>
 							  <div className={s.storage}>{item.storage}</div>
 						  </div>
+						  <div className={s.countPizza}>
+							  <div className={s.title}>Count</div>
+							  <div className={s.value}>{item.count}</div>
+						  </div>
 							<div className={s.bough}>
 								<div className={s.title}>Bough</div>
 								<div className={s.value}>{item.sizeDough}</div>
@@ -35,7 +39,7 @@ const Basket = ({basket, deleteCard}) => {
 								<div className={s.title}>Supplements</div>
 								<div className={s.value}>{item.supplements ? item.supplements : "empty"}</div>
 							</div>
-						  <div className={s.price}>{item.value} UAH</div>
+						  <div className={s.price}>{item.value * item.count} UAH</div>
 						  <div className={s.deleteCard} onClick={()=>deleteCard(item)}>
 							  <i className="fas fa-times"/>
 						  </div>
