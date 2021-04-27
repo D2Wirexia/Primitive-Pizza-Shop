@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Primitive-Pizza-Shop/static/css/main.23e03d69.chunk.css",
-    "main.js": "/Primitive-Pizza-Shop/static/js/main.0dae95a7.chunk.js",
-    "main.js.map": "/Primitive-Pizza-Shop/static/js/main.0dae95a7.chunk.js.map",
+    "main.css": "/Primitive-Pizza-Shop/static/css/main.676eefc2.chunk.css",
+    "main.js": "/Primitive-Pizza-Shop/static/js/main.1bc311f6.chunk.js",
+    "main.js.map": "/Primitive-Pizza-Shop/static/js/main.1bc311f6.chunk.js.map",
     "runtime-main.js": "/Primitive-Pizza-Shop/static/js/runtime-main.d6daca95.js",
     "runtime-main.js.map": "/Primitive-Pizza-Shop/static/js/runtime-main.d6daca95.js.map",
-    "static/js/2.449d5a70.chunk.js": "/Primitive-Pizza-Shop/static/js/2.449d5a70.chunk.js",
-    "static/js/2.449d5a70.chunk.js.map": "/Primitive-Pizza-Shop/static/js/2.449d5a70.chunk.js.map",
+    "static/js/2.9700d516.chunk.js": "/Primitive-Pizza-Shop/static/js/2.9700d516.chunk.js",
+    "static/js/2.9700d516.chunk.js.map": "/Primitive-Pizza-Shop/static/js/2.9700d516.chunk.js.map",
     "static/js/3.2545dace.chunk.js": "/Primitive-Pizza-Shop/static/js/3.2545dace.chunk.js",
     "static/js/3.2545dace.chunk.js.map": "/Primitive-Pizza-Shop/static/js/3.2545dace.chunk.js.map",
     "index.html": "/Primitive-Pizza-Shop/index.html",
-    "static/css/main.23e03d69.chunk.css.map": "/Primitive-Pizza-Shop/static/css/main.23e03d69.chunk.css.map",
-    "static/js/2.449d5a70.chunk.js.LICENSE.txt": "/Primitive-Pizza-Shop/static/js/2.449d5a70.chunk.js.LICENSE.txt",
+    "static/css/main.676eefc2.chunk.css.map": "/Primitive-Pizza-Shop/static/css/main.676eefc2.chunk.css.map",
+    "static/js/2.9700d516.chunk.js.LICENSE.txt": "/Primitive-Pizza-Shop/static/js/2.9700d516.chunk.js.LICENSE.txt",
     "static/media/bbq.9dd92882.png": "/Primitive-Pizza-Shop/static/media/bbq.9dd92882.png",
     "static/media/california.1ecc001c.png": "/Primitive-Pizza-Shop/static/media/california.1ecc001c.png",
     "static/media/chees.5b182032.png": "/Primitive-Pizza-Shop/static/media/chees.5b182032.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d6daca95.js",
-    "static/js/2.449d5a70.chunk.js",
-    "static/css/main.23e03d69.chunk.css",
-    "static/js/main.0dae95a7.chunk.js"
+    "static/js/2.9700d516.chunk.js",
+    "static/css/main.676eefc2.chunk.css",
+    "static/js/main.1bc311f6.chunk.js"
   ]
 }
