@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
        <HeaderContainer/>
-       <Route path="/menu" render={() => <MenuContainer/>}/>
-       <Route path="/basket" render={() => <BasketContainer/>}/>
+       <div>
+       <Route exact path="/" render={() => <MenuContainer/>}/>
+       <Route exact path="/basket" render={() => <BasketContainer/>}/>
+       </div>
     </div>
   );
 }
